@@ -1,0 +1,3 @@
+experiment,document_hits,fact_hits,fallback_hits
+"NORMAL CHUNKING: 40 WORDS, 10-WORD OVERLAP",12,12,2
+"ZERO-OVERLAP CHUNKING: 40 WORDS, ZERO OVERLAP",12,10,2

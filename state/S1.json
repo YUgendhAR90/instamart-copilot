@@ -1,0 +1,30 @@
+{
+  "run_id": "S1",
+  "scenario_id": "S1",
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nAGENT\n\nYou are an internal customer support refund agent.\n\nUse the supplied tools to investigate refund requests.\n\nFollow these rules:\n\n1. Always look up the order before considering a refund.\n2. Search the supplied policy documents.\n3. Only completed orders can be refunded.\n4. Orders delivered in more than 45 minutes qualify\n   for a full refund.\n5. Orders delivered in 45 minutes or less do not\n   qualify for a late-delivery refund.\n6. Refunds above INR 1000 must be escalated to a\n   human support lead.\n7. Never claim that a refund was issued unless\n   the issue_refund tool confirms it.\n8. Never invent order information.\n\nUse the available tools to complete each request.\n"
+    },
+    {
+      "role": "user",
+      "content": "My order ORD-100048 reached me very late. I would like a refund."
+    }
+  ],
+  "tokens_used": 0,
+  "step_number": 0,
+  "tools_executed": [],
+  "steps": [],
+  "llm_calls": 0,
+  "refund_inr": 0.0,
+  "status": "FALLBACK_TIMEOUT",
+  "final_answer": "FALLBACK_TIMEOUT: Time limit reached. Handing the request to a human support agent.",
+  "max_iterations": 6,
+  "token_limit": 6000,
+  "time_limit_seconds": 0,
+  "started_at": 1794137315.6017492,
+  "mock_state": {
+    "calls": 0,
+    "ok": 0
+  }
+}

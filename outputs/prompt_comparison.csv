@@ -1,0 +1,3 @@
+prompt,tickets_classified,correct,accuracy,total_tokens,tokens_per_ticket,json_count,keyword_count,invalid_count
+Zero-shot,147,126,0.8571428571428571,22660,154.14965986394557,135,12,9
+Few-shot,147,147,1.0,43408,295.2925170068027,135,12,9

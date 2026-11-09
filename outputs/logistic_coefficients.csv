@@ -1,0 +1,4 @@
+feature,coefficient,sign,business_meaning
+recency,0.0789008829440022,positive,More days since the last order are associated with greater lapse risk.
+frequency,-1.2714253625835634,negative,More historical orders are associated with lower lapse risk.
+avg_delivery_minutes,0.06504310996828891,positive,Longer historical delivery times are associated with greater lapse risk.
